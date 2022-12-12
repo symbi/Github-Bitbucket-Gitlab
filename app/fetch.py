@@ -1,9 +1,7 @@
 import os, sys
 import urllib
 import re
-
 from urllib.parse import urljoin
-
 import codecs
 from datetime import datetime
 import argparse
@@ -124,17 +122,6 @@ if __name__ == "__main__":
 
 
 
-    # session = requests.Session()
-    # response = session.get('https://www.google.com')
-    # url='https://www.google.com'
-
-
-    #response = urllib.request.urlopen(url)
-    #print(response)
-
-    #savePage(response, 'google')
-
-    # from __future__ import division, unicode_literals
 
 
 
