@@ -40,8 +40,9 @@ ls app/test
 open app/test/www.google.com/www.google.com/index.html
 ```
 ### result
-* be able to load the text, but not the image
-* download the whole page content
+* be able to load the text, fail to load the image
+* download the whole page content in test folder
+## Other
 ```
 docker exec -it python3 python fetch.py --metadata_download https://www.google.com https://stackoverflow.com
 ```
@@ -57,7 +58,7 @@ images:  18
 last_fetch:  Mon Dec 12 2022 08:56 UTC
 ```
 reason different from session2:
-session2 not fetch with webdriver
+* session2 does not fetch with webdriver
 
 ## clean up
 ```
